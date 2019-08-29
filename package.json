@@ -2,12 +2,12 @@
   "name": "pc-nrfconnect-ble",
   "version": "2.3.1",
   "description": "A natural first choice for Bluetooth Low Energy development",
-  "displayName": "Bluetooth Low Energy",
+  "displayName": "Bluetooth Low Energy (Powered by Pierstack Inc.)",
   "repository": {
     "type": "git",
     "url": "https://github.com/NordicSemiconductor/pc-nrfconnect-ble.git"
   },
-  "author": "Nordic Semiconductor ASA",
+  "author": "Pierstack Inc.",
   "license": "SEE LICENSE IN LICENSE",
   "main": "dist/bundle.js",
   "engines": {
@@ -44,6 +44,10 @@
     "react-onclickoutside": "^5.10.0",
     "react-sizeme": "^2.3.1",
     "react-textarea-autosize": "^4.0.5",
+    "ahrs": "^1.2.2",
+    "dgram": "^1.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "uuid-v4": "^0.1.0"
   },
   "dependencies": {}

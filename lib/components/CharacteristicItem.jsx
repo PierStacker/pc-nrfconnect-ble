@@ -147,16 +147,16 @@ class CharacteristicItem extends AttributeItem {
 
         const propertyList = [];
 
-        if (properties) {
-            properties.forEach((propertyValue, property) => {
-                if (propertyValue) {
-                    const key = property;
-                    propertyList.push(
-                        <div key={key} className="device-flag">{property}</div>,
-                    );
-                }
-            });
-        }
+        // if (properties) {
+        //     properties.forEach((propertyValue, property) => {
+        //         if (propertyValue) {
+        //             const key = property;
+        //             propertyList.push(
+        //                 <div key={key} className="device-flag">{property}</div>,
+        //             );
+        //         }
+        //     });
+        // }
 
         const onRead = (hasReadProperty && !isLocal)
             ? () => this.onRead()
